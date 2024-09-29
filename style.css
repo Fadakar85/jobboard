@@ -8,13 +8,13 @@ body{
 
 @font-face {
     font-family: 'sansserif';
-    src: url('/font/Sans\ a4fran3.ttf') format(truetype),
-         url('/font/Sans\ a4fran3.woff') format(woff);
+    src: url('Sans\ a4fran3.ttf') format(truetype),
+         url('Sans\ a4fran3.woff') format(woff);
 }
 
 @font-face {
     font-family: 'bziba';
-    src: url('/font/B\ Ziba_0.ttf') format(truetype);
+    src: url('B\ Ziba_0.ttf') format(truetype);
 }
 
 .about-me{
