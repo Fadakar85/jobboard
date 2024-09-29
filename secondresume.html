@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body class="row m-0 fs-5">
+
+    <div class="grand-father m-0 col-11 m-auto pe-lg-5 ps-lg-5 pe-md-2 ps-md-3">
+        <div class="father row d-flex justify-content-around flex-lg-nowrap">
+
+
+
+
+
+            
+
+
+
+
+
+
+            <div class="right-container1 sticky-lg-top row col-3 ms-4 shadow" id="rightContainer" style="font-size: 1px;">
+                
+
+                <i class="email1 bi bi-chevron-down emaillit d-flex position-absolute top-0 start-0 align-items-center d-inline fs-5 col-3 me-2 shadow" id="down" onclick="opentam()" style="width: 150px;"><p class="fs-6 me-2 mt-3">اطلاعات تماس</p></i>
+                <i class="email1 bi bi-chevron-compact-up emaillit d-flex position-absolute top-0 start-0 align-items-center d-inline fs-5 col-3 me-2 shadow" id="up" onclick="closetam()" style="width: 150px; scale: 0;"><p class="fs-6 me-2 mt-3">اطلاعات تماس</p></i>
+                
+
+                <i class="bi bi-chevron-up btn fixed email2 d-flex open btn d-inline pb-2 col-3 shadow ms-0 top-0 translate-middle text-warning" style="font-size: 1rem;" id="open" onclick="openmode()"></i>
+                <i class="bi bi-chevron-down btn fixed email2 d-flex rounded-top-4 close btn d-inline fs-5 ms-5 col-3 shadow top-0 translate-middle text-warning" style="font-size: 1rem;" id="close" onclick="closemode()"></i>
+                
+                
+
+                <div class="change-mode col-6 position-absolute top-0 end-0 d-flex flex-nowrap justify-content-center" id="changeMode">
+                        <i class="bi bi-sun email2 d-flex btn align-items-center pb-2 rounded-circle m-2 fs-5 col-3 shadow text-warning" id="light" onclick="lightmode()"></i>
+                        <i class="bi bi-moon email2 d-flex btn align-items-center pb-2 rounded-circle m-2 fs-5 col-3 shadow text-warning" id="dark" onclick="darkmode()"></i>
+                </div>
+
+
+                <div class="contright">
+                
+
+                <div class="moarefi m-auto text-center">
+                    <img src="../image_02.jpg" alt="" class="mypic filtering m-auto rounded-5 mt-4 p-3">
+                    <h4 class="efan text-light mt-3" style="font-size: 1.25rem;">سید عرفان حسینی</h4>
+                    <h5><span class="bdg badge p-2 mt-2 mb-3 fw-light text-secondary">برنامه نویس سایت</span></h5>
+                </div>
+
+
+                <div class="hiding" id="hiding">
+                <hr style="color: #4d4d4d" class="mb-2 mt-0">
+
+
+                
+                <div class="">
+                    <div class="d-flex">
+                        <i class="email bi bi-envelope pt-2 text-center d-inline fs-5 col-3 shadow"></i>
+                        <div class="d-inline me-2">
+                            <p class="text-secondary mb-0">ایمیل</p>
+                            <p class="text-light">seyed.earphan@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex mt-3">
+                        <i class="email bi bi-phone pt-2 text-center d-inline fs-5 col-3 shadow"></i>
+                        <div class="d-inline me-2">
+                            <p class="text-secondary mb-0">تلفن</p>
+                            <p class="text-light">09228192173</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex mt-3">
+                        <i class="email bi bi-calendar2-week pt-2 text-center d-inline fs-5 col-3 shadow"></i>
+                        <div class="d-inline me-2">
+                            <p class="text-secondary mb-0">تاریخ تولد</p>
+                            <p class="text-light">1385/06/23</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex mt-3">
+                        <i class="email bi bi-geo-alt pt-2 text-center d-inline fs-5 col-3 shadow"></i>
+                        <div class="d-inline me-2">
+                            <p class="text-secondary mb-0">موقعیت مکانی</p>
+                            <p class="text-light">ایران ، تهران</p>
+                        </div>
+                    </div>
+                </div>
+
+                <hr style="color: #4d4d4d; margin: 0px 0px;">
+                <div class="mb-4">
+                    <h6 class="text-light mb-2 mt-4" style="font-size: 14px;">html, css, js 90%</h6>
+                    <div class="progress p-0 mt-0" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px; background-color: #343A40;">
+                        <div class="darsad progress-bar" style="width: 90%"></div>
+                    </div>
+
+                    <h6 class="text-light mb-2 mt-4" style="font-size: 14px;">wordpress 75%</h6>
+                    <div class="progress p-0" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px; background-color: #343A40;">
+                        <div class="darsad progress-bar" style="width: 75%"></div>
+                    </div>
+
+                    <h6 class="text-light mb-2 mt-4" style="font-size: 14px;">react 25%</h6>
+                    <div class="progress p-0 mt-0" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px; background-color: #343A40;">
+                        <div class="darsad progress-bar" style="width: 25%"></div>
+                    </div>
+                </div>
+                
+
+
+                
+
+                </div>
+            </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="left-container tabcontent col-9 position-relative row me-3 shadow" id="leftContainerAbout">
+
+
+                <div class="mymenu position-absolute top-0 start-0 col-8 p-3 shadow-5">
+                        <ul class="d-flex justify-content-between mt-1 mb-1">
+                            <li class="tablink menu-org list-group-item btn text-warning" id="defaultOpen" onclick="openPage('leftContainerAbout', this, 'red')">درباره من</li>
+                            <li class="tablink menu-org list-group-item btn" onclick="openPage('leftContainerResume', this, 'green')">رزومه من</li>
+                            <li class="tablink menu-org list-group-item btn" onclick="openPage('leftContainerNemkar', this, 'blue')">نمونه کارها</li></a>
+                            <li class="tablink menu-org list-group-item btn" onclick="openPage('leftContainerWeb', this, 'orange')">وبلاگ</li></a>
+                            <li class="tablink menu-org list-group-item btn" onclick="openPage('leftContainerTamas', this, 'orange')">تماس با من</li></a>
+                        </ul>
+                </div>
+
+
+
+                    <div class="resume1">
+                        <h1 class="about-me fw-bolder text-light mt-4" style="font-size: 2rem;" id="AbMeTxt">درباره من</h1>
+                        <div class="progress p-0 mt-2 col-1 me-2 mb-4" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px; background-color: #343A40;">
+                            <div class="progress-bar bg-warning" style="width: 100%"></div>
+                        </div>
+
+                        <div class="resumediv" id="resumedivh">
+                        <p class="tozih fw-light">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                        </p>
+                        <p class="tozih fw-light">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
+                        </p>
+
+                        <h1 class="what-do fw-bolder text-light mt-4 mb-0" style="font-size: 2.25rem;">چه کاری انجام میدهم </h1>
+                        <div class="text-light m-auto mt-0 d-flex flex-wrap ms-5">
+                            <div class="gradfather d-flex justify-content-around flex-lg-nowrap flex-md-nowrap flex-wrap p-3 col-sm-12">
+                                <div class="gradiant col-lg-6 col-md-6 col-sm-12 pe-5 ps-5 pt-4 pb-3 m-3 shadow">
+                                    <img src="../icon-design.svg" alt="" class="filtering">
+                                    <h4 class="d-lg-inline d-md-inline m-2 fw-bolder fs-6" style="font-size: 2rem;">طراح وبسایت</h4>
+                                    <p class="trhst fw-light  col-sm-12" style="font-size: 0.1rem;"> مدرن ترین و با کیفیت بالا طراحی شده در سطح حرفه ای.</p>
+                                </div>
+                                <div class="gradiant col-lg-6 col-md-6 col-sm-12 pe-5 ps-5 pt-4 pb-3 m-3 shadow">
+                                    <img src="../icon-design.svg" alt="" class="filtering">
+                                    <h4 class="d-lg-inline d-md-inline m-2 fw-bolder fs-6" style="font-size: 2rem;">طراح وبسایت</h4>
+                                    <p class="trhst fw-light  col-sm-12" style="font-size: 0.1rem;"> مدرن ترین و با کیفیت بالا طراحی شده در سطح حرفه ای.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-around flex-lg-nowrap flex-md-nowrap flex-wrap p-3 col-sm-12">
+                                <div class="gradiant col-lg-6 col-md-6 col-sm-12 pe-5 ps-5 pt-4 pb-3 m-3 shadow">
+                                    <img src="../icon-design.svg" alt="" class="filtering">
+                                    <h4 class="d-lg-inline d-md-inline m-2 d-sm-block fw-bolder fs-6" style="font-size: 2rem;">طراح وبسایت</h4>
+                                    <p class="trhst fw-light  col-sm-12" style="font-size: 0.1rem;"> مدرن ترین و با کیفیت بالا طراحی شده در سطح حرفه ای.</p>
+                                </div>
+                                <div class="gradiant col-lg-6 col-md-6 col-sm-12 pe-5 ps-5 pt-4 pb-3 m-3 shadow">
+                                    <img src="../icon-design.svg" alt="" class="filtering">
+                                    <h4 class="d-lg-inline d-md-inline m-2 fw-bolder fs-6" style="font-size: 2rem;">طراح وبسایت</h4>
+                                    <p class="trhst fw-light  col-sm-12" style="font-size: 0.1rem;"> مدرن ترین و با کیفیت بالا طراحی شده در سطح حرفه ای.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-5 m-auto d-flex justify-content-center mb-3">
+                            <div class="btn majazi fs-6"><i class="bi bi-facebook d-inline"></i><p class="d-inline me-2" style="font-size: 0.5rem;">فیسبوک</p></div>
+                            <div class="btn majazi fs-6"><i class="bi bi-twitter me-3 d-inline"></i><p class="d-inline me-2" style="font-size: 0.5rem;">توییتر</p></div>
+                            <div class="btn majazi fs-6"><i class="bi bi-whatsapp me-3  d-inline"></i><p class="d-inline me-2" style="font-size: 0.5rem;">واتساپ</p></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="left-container tabcontent col-9 position-relative row me-3 shadow" id="leftContainerResume">
+
+
+            <div class="mymenu position-absolute top-0 start-0 col-8 p-3 shadow-5">
+                <ul class="d-flex justify-content-between mt-1 mb-1">
+                    <li class="tablink menu-org list-group-item btn" id="defaultOpen" onclick="openPage('leftContainerAbout', this, 'red')">درباره من</li>
+                    <li class="tablink menu-org list-group-item btn text-warning" onclick="openPage('leftContainerResume', this, 'green')">رزومه من</li>
+                    <li class="tablink menu-org list-group-item btn" onclick="openPage('leftContainerNemkar', this, 'blue')">نمونه کارها</li></a>
+                    <li class="tablink menu-org list-group-item btn" onclick="openPage('leftContainerWeb', this, 'orange')">وبلاگ</li></a>
+                    <li class="tablink menu-org list-group-item btn" onclick="openPage('leftContainerTamas', this, 'orange')">تماس با من</li></a>
+                </ul>
+            </div>
+
+
+                <div>
+                <h1 class="about-me fw-bolder text-light mt-4" style="font-size: 2.25rem;">رزومه</h1>
+                <div class="progress p-0 mt-2 col-1 me-2 mb-5" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px; background-color: #343A40;">
+                    <div class="progress-bar bg-warning" style="width: 100%"></div>
+                </div>
+
+                <div class="row d-flex justify-content-end flex-nowrap align-items-center me-5 mb-0" style="height: 48px;">
+                    <i class="email bi bi-phone d-inline d-flex justify-content-center align-items-center col-3 shadow" style="font-size: 1.5rem;"></i>
+                    <h1 class="about-me fw-bolder text-light d-inline" style="font-size: 2rem;">تحصیلات</h1>
+                </div>
+
+                <div class="d-flex mt-0 mb-0 me-3 mt-0 position-relative" style="height: 60px;">
+                    <div class="vr bg-light"></div>
+                </div>
+
+               <div class="mt-0 mb-5">
+                    <article class="first-article border-end position-relative me-3" style="padding: 0 40px 9px 0;">
+                        <span class="position-absolute top-0 start-100 translate-middle p-2 bg-warning rounded-circle" style="box-shadow: 0px 0px 8px rgb(165, 165, 0);">
+                            <span class="visually-hidden">New alerts</span>
+                          </span>
+                        <h5 class="text-light" style="font-size: 1.1rem;">مدرسه دانشگاه هنر</h5>
+                        <span class="text-warning">1394-1398</span>
+                        <p class="fw-lighter" style="font-size: 0.2rem; margin: 4px 0 16px; color: #d1d1d1;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                    </article>
+                    <article class="first-article border-end position-relative me-3" style="padding: 0 40px 9px 0;">
+                        <span class="position-absolute top-0 start-100 translate-middle p-2 bg-warning rounded-circle" style="box-shadow: 0px 0px 8px rgb(165, 165, 0);">
+                            <span class="visually-hidden">New alerts</span>
+                          </span>
+                        <h5 class="text-light" style="font-size: 1.1rem;">مدرسه دانشگاه هنر</h5>
+                        <span class="text-warning">1394-1398</span>
+                        <p class="text-light" style="font-size: 0.2rem; margin: 4px 0 16px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                    </article>
+                    <article class="first-article position-relative me-3" style="padding: 0 40px 9px 0;">
+                        <span class="position-absolute top-0 start-100 translate-middle p-2 bg-warning rounded-circle" style="box-shadow: 0px 0px 8px rgb(165, 165, 0);">
+                            <span class="visually-hidden">New alerts</span>
+                          </span>
+                        <h5 class="text-light" style="font-size: 1.1rem;">مدرسه دانشگاه هنر</h5>
+                        <span class="text-warning">1394-1398</span>
+                        <p class="text-light" style="font-size: 0.2rem; margin: 4px 0 16px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                    </article>
+               </div>
+
+                <div class="row d-flex justify-content-end flex-nowrap align-items-center me-5 mb-0" style="height: 48px;">
+                    <i class="email bi bi-phone d-inline d-flex justify-content-center align-items-center col-3 shadow"></i>
+                    <h1 class="about-me fw-bolder text-light d-inline" style="font-size: 2rem;">تحصیلات</h1>
+                </div>
+
+                <div class="d-flex mt-0 mb-0 me-3 mt-0 position-relative" style="height: 60px;">
+                    <div class="vr bg-light"></div>
+                </div>
+
+               <div class="mt-0 mb-3">
+                    <article class="first-article border-end position-relative me-3" style="padding: 0 40px 9px 0;">
+                        <span class="position-absolute top-0 start-100 translate-middle p-2 bg-warning rounded-circle" style="box-shadow: 0px 0px 8px rgb(165, 165, 0);">
+                            <span class="visually-hidden">New alerts</span>
+                          </span>
+                        <h5 class="text-light" style="font-size: 1.1rem;">مدرسه دانشگاه هنر</h5>
+                        <span class="text-warning">1394-1398</span>
+                        <p class="text-light" style="font-size: 0.2rem; margin: 4px 0 16px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                    </article>
+                    <article class="first-article border-end position-relative me-3" style="padding: 0 40px 9px 0;">
+                        <span class="position-absolute top-0 start-100 translate-middle p-2 bg-warning rounded-circle" style="box-shadow: 0px 0px 8px rgb(165, 165, 0);">
+                            <span class="visually-hidden">New alerts</span>
+                          </span>
+                        <h5 class="text-light" style="font-size: 1.1rem;">مدرسه دانشگاه هنر</h5>
+                        <span class="text-warning">1394-1398</span>
+                        <p class="text-light" style="font-size: 0.2rem; margin: 4px 0 16px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                    </article>
+                    <article class="first-article position-relative me-3" style="padding: 0 40px 9px 0;">
+                        <span class="position-absolute top-0 start-100 translate-middle p-2 bg-warning rounded-circle" style="box-shadow: 0px 0px 8px rgb(165, 165, 0);">
+                            <span class="visually-hidden">New alerts</span>
+                          </span>
+                        <h5 class="text-light" style="font-size: 1.1rem;">مدرسه دانشگاه هنر</h5>
+                        <span class="text-warning">1394-1398</span>
+                        <p class="text-light" style="font-size: 0.2rem; margin: 4px 0 16px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                    </article>
+                    </div>
+               </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="left-container tabcontent col-9 position-relative row me-3 shadow" id="leftContainerNemkar">
+                
+            <div class="mymenu position-absolute top-0 start-0 col-8 p-3 shadow-5">
+                <ul class="d-flex justify-content-between mt-1 mb-1">
+                    <li class="tablink menu-org list-group-item btn" id="defaultOpen" onclick="openPage('leftContainerAbout', this, 'red')">درباره من</li>
+                    <li class="tablink menu-org list-group-item btn" onclick="openPage('leftContainerResume', this, 'green')">رزومه من</li>
+                    <li class="tablink menu-org list-group-item btn text-warning" onclick="openPage('leftContainerNemkar', this, 'blue')">نمونه کارها</li></a>
+                    <li class="tablink menu-org list-group-item btn" onclick="openPage('leftContainerWeb', this, 'orange')">وبلاگ</li></a>
+                    <li class="tablink menu-org list-group-item btn" onclick="openPage('leftContainerTamas', this, 'orange')">تماس با من</li></a>
+                </ul>
+            </div>
+
+
+
+            <h1 class="about-me fw-bolder text-light mt-4" style="font-size: 2rem;">نمونه کار ها</h1>
+            <div class="progress p-0 mt-2 col-1 me-2 mb-4" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px; background-color: #343A40;">
+                <div class="progress-bar bg-warning" style="width: 100%"></div>
+            </div>
+
+
+
+            
+                        
+            
+
+
+
+
+
+            <div class="tabs-container">
+                <div class="d-flex justify-content-start">
+                    <ul class="tabs justify-content-start">
+                      <li class="active menu-org2 btn list-group-item tablink1">
+                        <a href="" class="tablink menu-org2 me-4 btn list-group-item hi1">همه</a>
+                      </li>
+                      <li class="menu-org2 btn list-group-item tablink1">
+                        <a href="" class="tablink menu-org2 btn list-group-item hi1">طراحی وب</a>
+                      </li>
+                      <li class="menu-org2 btn list-group-item tablink1">
+                        <a href="" class="tablink menu-org2 btn list-group-item hi1">نرم افزار</a>
+                      </li>
+                      <li class="menu-org2 btn list-group-item tablink1">
+                        <a href="" class="tablink menu-org2 btn list-group-item hi1">توسعه وب</a>
+                      </li>
+                    </ul>
+                </div>
+                <div class="tabs-content">
+                  <div class="tabs-panel active" data-index="0">
+
+
+                    <div class="row m-auto d-flex flex-lg-nowrap flex-wrap justify-content-center">
+                        <div class="col-lg-4 col-md-10 col-sm-10">
+                            <div id="transat">
+                                <div class="wrapper p-0 rounded-4 m-0 btn position-relative">
+                                    <img src="../Associate-Professors-Professional-Network-and-Software.jpg" alt="" class="images filtering rounded-4">
+                                    <a onclick="openPage('yenekar', this, 'orange')"><i class="overlay bi bi-eye btn text-warning rounded-4 fs-5 p-2"></i></a>
+                                </div>
+                                <p class="text-light mt-2 mb-0"  style="font-size: 1rem;" id="hi">توسعه راکت</p>
+                                <p class="text-secondary" style="font-size: 0.2rem;"><small>توسعه وب</small></p>
+                            </div>
+    
+                            <div id="transat1">
+                                <div class="wrapper rounded-4 p-0 btn">
+                                    <img src="../Associate-Professors-Professional-Network-and-Software.jpg" alt="" class="images filtering rounded-4">
+                                    <a onclick="openPage('yenekar', this, 'orange')"><i class="overlay bi bi-eye btn text-warning rounded-4 fs-5 p-2"></i></a>
+                                </div>
+                                <p class="text-light mt-2 mb-0"  style="font-size: 1rem;">طراحی الفا</p>
+                                <p class="text-secondary" style="font-size: 0.2rem;"><small>طراحی وب</small></p>
+                            </div>
+    
+                            <div id="transat2">
+                                <div class="wrapper rounded-4 p-0 btn">
+                                    <img src="../Associate-Professors-Professional-Network-and-Software.jpg" alt="" class="images filtering rounded-4">
+                                    <a onclick="openPage('yenekar', this, 'orange')"><i class="overlay bi bi-eye btn text-warning rounded-4 fs-5 p-2"></i></a>
+                                </div>
+                                <p class="text-light mt-2 mb-0"  style="font-size: 1rem;">طراحی امگا</p>
+                                <p class="text-secondary" style="font-size: 0.2rem;"><small>طراحی وب</small></p>
+                            </div>
+                        </div>
+    
+    
+                        <div class="col-lg-4  col-md-10 col-sm-10">
+                            <div id="transat3">
+                                <div class="wrapper rounded-4 p-0 btn">
+                                    <img src="../Associate-Professors-Professional-Network-and-Software.jpg" alt="" class="images filtering rounded-4">
+                                    <a onclick="openPage('yenekar', this, 'orange')"><i class="overlay bi bi-eye btn text-warning rounded-4 fs-5 p-2"></i></a>
+                                </div>
+                                <p class="text-light mt-2 mb-0"  style="font-size: 1rem;">نرم افزار گویا</p>
+                                <p class="text-secondary" style="font-size: 0.2rem;"><small>نرم افزار</small></p>
+                            </div>
+    
+                            <div id="transat4">
+                                <div class="wrapper rounded-4 p-0 btn">
+                                    <img src="../Associate-Professors-Professional-Network-and-Software.jpg" alt="" class="images filtering rounded-4">
+                                    <a onclick="openPage('yenekar', this, 'orange')"><i class="overlay bi bi-eye btn text-warning rounded-4 fs-5 p-2"></i></a>
+                                </div>
+                                <p class="text-light mt-2 mb-0"  style="font-size: 1rem;">توسعه المنتور</p>
+                                <p class="text-secondary" style="font-size: 0.2rem;"><small>توسعه وب</small></p>
+                            </div>
+    
+                            <div id="transat5">
+                                <div class="wrapper p-0 rounded-4 mb-0 btn">
+                                    <img src="../Associate-Professors-Professional-Network-and-Software.jpg" alt="" class="images filtering rounded-4">
+                                    <a onclick="openPage('yenekar', this, 'orange')"><i class="overlay bi bi-eye btn text-warning rounded-4 fs-5 p-2"></i></a>
+                                </div>
+                                <p class="text-light mt-2 mb-0"  style="font-size: 1rem;">نرم افزار اورنج</p>
+                                <p class="text-secondary" style="font-size: 0.2rem;"><small>نرم افزار</small></p>
+                            </div>
+                        </div>
+    
+    
+                        <div class="col-lg-4 col-md-10 col-sm-10">
+                            <div id="transat6">
+                                <div class="wrapper rounded-4 p-0 btn">
+                                    <img src="../Associate-Professors-Professional-Network-and-Software.jpg" alt="" class="images filtering rounded-4 w-100">
+                                    <a onclick="openPage('yenekar', this, 'orange')"><i class="overlay bi bi-eye btn text-warning rounded-4 fs-5 p-2"></i></a>
+                                </div>
+                                <p class="text-light mt-2 mb-0"  style="font-size: 1rem;">طراحی مونوبرد</p>
+                                <p class="text-secondary" style="font-size: 0.2rem;"><small>طراحی وب</small></p>
+                            </div>
+    
+                            <div id="transat7">
+                                <div class="wrapper rounded-4 p-0 btn">
+                                    <img src="../Associate-Professors-Professional-Network-and-Software.jpg" alt="" class="images filtering rounded-4 w-100">
+                                    <a onclick="openPage('yenekar', this, 'orange')"><i class="overlay bi bi-eye btn text-warning rounded-4 fs-5 p-2"></i></a>
+                                </div>
+                                <p class="text-light mt-2 mb-0"  style="font-size: 1rem;">نرم افزار میکرو</p>
+                                <p class="text-secondary" style="font-size: 0.2rem;"><small>نرم افزار</small></p>
+                            </div>
+    
+                            <div id="transat8">
+                                <div class="wrapper rounded-4 p-0 btn">
+                                    <img src="../Associate-Professors-Professional-Network-and-Software.jpg" alt="" class="images filtering rounded-4 w-100">
+                                    <a onclick="openPage('yenekar', this, 'orange')"><i class="overlay bi bi-eye btn text-warning rounded-4 fs-5 p-2"></i></a>
+                                </div>
+                                <p class="text-light mt-2 mb-0"  style="font-size: 1rem;">توسعه ولتام</p>
+                                <p class="text-secondary" style="font-size: 0.2rem;"><small>توسعه وب</small></p>
+                            </div>
+                        </div>
+                    </div>
+
+                  </div>
+                  <div class="tabs-panel" data-index="1">
+                    <div class="d-flex flex-lg-nowrap flex-wrap p-md-5 p-sm-5 pt-md-0 pt-sm-0 p-lg-0">
+                        <div id="transat1 col-lg-4 col-md-10 col-sm-10">
+                            <div class="wrapper rounded-4 p-0 btn m-2">
+                                <img src="../Associate-Professors-Professional-Network-and-Software.jpg" alt="" class="images filtering rounded-4">
+                                <a onclick="openPage('yenekar', this, 'orange')"><i class="overlay bi bi-eye btn text-warning rounded-4 fs-5 p-2"></i></a>
+                            </div>
+                            <p class="text-light mt-2 mb-0"  style="font-size: 1rem;">طراحی الفا</p>
+                            <p class="text-secondary" style="font-size: 0.2rem;"><small>طراحی وب</small></p>
+                        </div>
+
+                        <div id="transat2 col-lg-4 col-md-10 col-sm-10">
+                            <div class="wrapper rounded-4 p-0 btn m-2">
+                                <img src="../Associate-Professors-Professional-Network-and-Software.jpg" alt="" class="images filtering rounded-4">
+                                <a onclick="openPage('yenekar', this, 'orange')"><i class="overlay bi bi-eye btn text-warning rounded-4 fs-5 p-2"></i></a>
+                            </div>
+                            <p class="text-light mt-2 mb-0"  style="font-size: 1rem;">طراحی امگا</p>
+                            <p class="text-secondary" style="font-size: 0.2rem;"><small>طراحی وب</small></p>
+                        </div>
+
+                        <div id="transat6 col-lg-4 col-md-10 col-sm-10">
+                            <div class="wrapper rounded-4 p-0 btn m-2">
+                                <img src="../Associate-Professors-Professional-Network-and-Software.jpg" alt="" class="images filtering rounded-4 w-100">
+                                <a onclick="openPage('yenekar', this, 'orange')"><i class="overlay bi bi-eye btn text-warning rounded-4 fs-5 p-2"></i></a>
+                            </div>
+                            <p class="text-light mt-2 mb-0"  style="font-size: 1rem;">طراحی مونوبرد</p>
+                            <p class="text-secondary" style="font-size: 0.2rem;"><small>طراحی وب</small></p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="tabs-panel" data-index="2">
+                    <div class="d-flex flex-lg-nowrap flex-wrap p-md-5 p-sm-5 pt-md-0 pt-sm-0 p-lg-0">
+                        <div id="transat3 col-lg-4 col-md-10 col-sm-10">
+                            <div class="wrapper rounded-4 p-0 btn m-2">
+                                <img src="../Associate-Professors-Professional-Network-and-Software.jpg" alt="" class="images filtering rounded-4">
+                                <a onclick="openPage('yenekar', this, 'orange')"><i class="overlay bi bi-eye btn text-warning rounded-4 fs-5 p-2"></i></a>
+                            </div>
+                            <p class="text-light mt-2 mb-0"  style="font-size: 1rem;">نرم افزار گویا</p>
+                            <p class="text-secondary" style="font-size: 0.2rem;"><small>نرم افزار</small></p>
+                        </div>
+
+                        <div id="transat5 col-lg-4 col-md-10 col-sm-10">
+                            <div class="wrapper p-0 rounded-4 mb-0 btn m-2">
+                                <img src="../Associate-Professors-Professional-Network-and-Software.jpg" alt="" class="images filtering rounded-4">
+                                <a onclick="openPage('yenekar', this, 'orange')"><i class="overlay bi bi-eye btn text-warning rounded-4 fs-5 p-2"></i></a>
+                            </div>
+                            <p class="text-light mt-2 mb-0"  style="font-size: 1rem;">نرم افزار اورنج</p>
+                            <p class="text-secondary" style="font-size: 0.2rem;"><small>نرم افزار</small></p>
+                        </div>
+
+                        <div id="transat7 col-lg-4 col-md-10 col-sm-10">
+                            <div class="wrapper rounded-4 p-0 btn m-2">
+                                <img src="../Associate-Professors-Professional-Network-and-Software.jpg" alt="" class="images filtering rounded-4 w-100">
+                                <a onclick="openPage('yenekar', this, 'orange')"><i class="overlay bi bi-eye btn text-warning rounded-4 fs-5 p-2"></i></a>
+                            </div>
+                            <p class="text-light mt-2 mb-0"  style="font-size: 1rem;">نرم افزار میکرو</p>
+                            <p class="text-secondary" style="font-size: 0.2rem;"><small>نرم افزار</small></p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="tabs-panel" data-index="3">
+                    <div class="d-flex flex-lg-nowrap flex-wrap p-md-5 p-sm-5 pt-md-0 pt-sm-0 p-lg-0">
+                        <div id="transat8 col-lg-4 col-md-10 col-sm-10">
+                            <div class="wrapper rounded-4 p-0 btn m-2">
+                                <img src="../Associate-Professors-Professional-Network-and-Software.jpg" alt="" class="images filtering rounded-4 w-100">
+                                <a onclick="openPage('yenekar', this, 'orange')"><i class="overlay bi bi-eye btn text-warning rounded-4 fs-5 p-2"></i></a>
+                            </div>
+                            <p class="text-light mt-2 mb-0"  style="font-size: 1rem;">توسعه ولتام</p>
+                            <p class="text-secondary" style="font-size: 0.2rem;"><small>توسعه وب</small></p>
+                        </div>
+                    
+                        <div id="transat4 col-lg-4 col-md-10 col-sm-10">
+                            <div class="wrapper rounded-4 p-0 btn m-2">
+                                <img src="../Associate-Professors-Professional-Network-and-Software.jpg" alt="" class="images filtering rounded-4">
+                                <a onclick="openPage('yenekar', this, 'orange')"><i class="overlay bi bi-eye btn text-warning rounded-4 fs-5 p-2"></i></a>
+                            </div>
+                            <p class="text-light mt-2 mb-0"  style="font-size: 1rem;">توسعه المنتور</p>
+                            <p class="text-secondary" style="font-size: 0.2rem;"><small>توسعه وب</small></p>
+                        </div>
+                    
+                        <div id="transat col-lg-4 col-md-10 col-sm-10">
+                            <div class="wrapper p-0 rounded-4 btn m-2">
+                                <img src="../Associate-Professors-Professional-Network-and-Software.jpg" alt="" class="images filtering rounded-4">
+                                <a onclick="openPage('yenekar', this, 'orange')"><i class="overlay bi bi-eye btn text-warning rounded-4 fs-5 p-2"></i></a>
+                            </div>
+                            <p class="text-light mt-2 mb-0"  style="font-size: 1rem;" id="hi">توسعه راکت</p>
+                            <p class="text-secondary" style="font-size: 0.2rem;"><small>توسعه وب</small></p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="left-container tabcontent col-9 position-relative row me-3 shadow p-0" id="yenekar">
+                
+                <div class="mymenu position-absolute top-0 start-0 col-8 p-3 shadow-5" style="max-height: 66px;">
+                    <ul class="d-flex justify-content-between mt-1 mb-1">
+                        <li class="menu-org list-group-item btn">درباره من</li></a>
+                        <li class="menu-org list-group-item btn">رزومه من</li></a>
+                        <a class="link-offset-2 link-underline link-underline-opacity-0 rounded-3" onclick="openPage('leftContainerNemkar', this, 'blue')"><li class=" list-group-item btn mb-5 mt-0 btn-warning p-2 m-0" style="position: relative; bottom: 8px; color: aliceblue;">نمونه کارها</li></a>
+                        <li class="menu-org list-group-item btn">وبلاگ</li>
+                        <li class="menu-org list-group-item btn">تماس با من</li></a>
+                    </ul>
+                </div>
+
+
+
+                <h1 class="about-me fw-bolder text-light mt-4">نمونه کار</h1>
+                <div class="progress p-0 mt-2 col-1 me-2 mb-4" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px; background-color: #343A40;">
+                    <div class="progress-bar bg-warning" style="width: 100%"></div>
+                </div>
+
+
+                <a onclick="openPage('leftContainerNemkar', this, 'blue')" class="text-light link-offset-2 link-underline fs-6 link-underline-opacity-0"> <i class="bi bi-arrow-right"></i> بازگشت به نمونه کار ها</a>
+
+                <div class="primg1 position-relative">
+                    <img src="../project-1.jpg" alt="" class="primg filtering m-0 col-12">
+                    <h1 class="text-light fs-3 position-absolute bottom-0 end-0 m-4">طراحی مونوبورد – داشبورد ادمین <br>طراحی UI</h1>
+                </div>
+
+                <div class="d-flex justify-content-start mt-4 mb-2 flex-lg-nowrap flex-wrap">
+                    <div class="d-flex mt-3 me-4">
+                        <i class="email bi bi-calendar2-week pt-2 text-center d-inline fs-5 col-3 shadow"></i>
+                        <div class="d-inline me-2">
+                            <p class="text-secondary fs-6 mb-0">تاریخ تولد</p>
+                            <p class="text-light fs-6">1385/06/23</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex mt-3 me-5">
+                        <i class="email bi bi-calendar2-week pt-2 text-center d-inline fs-5 col-3 shadow"></i>
+                        <div class="d-inline me-2">
+                            <p class="text-secondary fs-6 mb-0">تاریخ تولد</p>
+                            <p class="text-light fs-6">1385/06/23</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex mt-3 me-5">
+                        <i class="email bi bi-calendar2-week pt-2 text-center d-inline fs-5 col-3 shadow"></i>
+                        <div class="d-inline me-2">
+                            <p class="text-secondary fs-6 mb-0">تاریخ تولد</p>
+                            <p class="text-light fs-6">1385/06/23</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <p class="tozih fw-light m-3">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                </p>
+
+                <p  class="tozih fw-light m-3">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد.
+                </p>
+
+
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner text-center">
+                      <div class="carousel-item active mb-5">
+                        <img src="../Moonboard-4.jpg" class="d-block filtering w-100 opacity-75" alt="...">
+                      </div>
+                      <div class="carousel-item mb-5">
+                        <img src="../Moonboard-4.jpg" class="d-block filtering w-100 opacity-75" alt="...">
+                      </div>
+                      <div class="carousel-item mb-5">
+                        <img src="../Moonboard-4.jpg" class="d-block filtering w-100 opacity-75" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="left-container tabcontent col-9 position-relative row me-3 shadow p-0"  id="leftContainerWeb">
+
+
+
+
+                <div class="mymenu position-absolute top-0 start-0 col-8 p-3 shadow-5">
+                    <ul class="d-flex justify-content-between mt-1 mb-1">
+                        <li class="tablink menu-org list-group-item btn" id="defaultOpen" onclick="openPage('leftContainerAbout', this, 'red')">درباره من</li>
+                        <li class="tablink menu-org list-group-item btn" onclick="openPage('leftContainerResume', this, 'green')">رزومه من</li>
+                        <li class="tablink menu-org list-group-item btn" onclick="openPage('leftContainerNemkar', this, 'blue')">نمونه کارها</li></a>
+                        <li class="tablink menu-org list-group-item btn text-warning" onclick="openPage('leftContainerWeb', this, 'orange')">وبلاگ</li></a>
+                        <li class="tablink menu-org list-group-item btn" onclick="openPage('leftContainerTamas', this, 'orange')">تماس با من</li></a>
+                    </ul>
+                </div>
+
+
+
+                <h1 class="about-me fw-bolder text-light mt-4 fs-1">وبلاگ</h1>
+                <div class="progress p-0 mt-2 col-1 me-2 mb-4" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px; background-color: #343A40;">
+                    <div class="progress-bar bg-warning" style="width: 100%"></div>
+                </div>
+
+
+
+
+                <div>
+                <div class="d-flex flex-lg-nowrap flex-wrap justify-content-center m-4">
+                    <div class="col-lg-6 col-sm-12 m-0">
+                        <div class="crdbx card col-11 m-0 mb-3 rounded-5">
+                            <div class="overf rounded-5">
+                                <a class="link-offset-2 link-underline link-underline-opacity-0" onclick="openPage('confranceh', this, 'orange')"><img src="/Associate-Professors-Professional-Network-and-Software.jpg" class="overlay1 filtering card-img-top" alt="..."></a>
+                            </div>
+                            <div class="card-body m-2">
+                              <p class="text-secondary fs-6">طراحی 25 بهمن 1400</p>
+                              <h5 class="card-title ttlcrd fs-6 text-light fw-bolder lh-lg">کنفرانس های طراحی در سال<br> 1399</h5>
+                              <p class="card-text text-secondary" style="font-size: 14px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                            </div>
+                          </div>
+
+                          <div class="crdbx card col-11 m-0 mb-3 rounded-5">
+                            <div class="overf rounded-5">
+                                <a class="link-offset-2 link-underline link-underline-opacity-0" onclick="openPage('confranceh', this, 'orange')"><img src="/Associate-Professors-Professional-Network-and-Software.jpg" class="overlay1 filtering card-img-top" alt="..."></a>
+                            </div>
+                            <div class="card-body m-2">
+                              <p class="text-secondary fs-6">طراحی 25 بهمن 1400</p>
+                              <h5 class="card-title ttlcrd fs-6 text-light fw-bolder lh-lg">کنفرانس های طراحی در سال<br> 1399</h5>
+                              <p class="card-text text-secondary" style="font-size: 14px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                            </div>
+                          </div>
+
+                          <div class="crdbx card col-11 m-0 mb-3 rounded-5">
+                            <div class="overf rounded-5">
+                                <a class="link-offset-2 link-underline link-underline-opacity-0" onclick="openPage('confranceh', this, 'orange')"><img src="/Associate-Professors-Professional-Network-and-Software.jpg" class="overlay1 filtering card-img-top" alt="..."></a>
+                            </div>
+                            <div class="card-body m-2">
+                              <p class="text-secondary fs-6">طراحی 25 بهمن 1400</p>
+                              <h5 class="card-title ttlcrd fs-6 text-light fw-bolder lh-lg">کنفرانس های طراحی در سال<br> 1399</h5>
+                              <p class="card-text text-secondary" style="font-size: 14px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 m-0">
+                        <div class="crdbx card col-11 m-0 mb-3 rounded-5">
+                            <div class="overf rounded-5">
+                                <a class="link-offset-2 link-underline link-underline-opacity-0" onclick="openPage('confranceh', this, 'orange')"><img src="/Associate-Professors-Professional-Network-and-Software.jpg" class="overlay1 filtering card-img-top" alt="..."></a>
+                            </div>
+                            <div class="card-body m-2">
+                                <p class="text-secondary fs-6">طراحی 25 بهمن 1400</p>
+                                <h5 class="card-title ttlcrd fs-6 text-light fw-bolder lh-lg">کنفرانس های طراحی در سال<br> 1399</h5>
+                                <p class="card-text text-secondary" style="font-size: 14px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                            </div>
+                          </div>
+
+                          <div class="crdbx card col-11 m-0 mb-3 rounded-5">
+                            <div class="overf rounded-5">
+                                <a class="link-offset-2 link-underline link-underline-opacity-0" onclick="openPage('confranceh', this, 'orange')"><img src="/Associate-Professors-Professional-Network-and-Software.jpg" class="overlay1 filtering card-img-top" alt="..."></a>
+                            </div>
+                            <div class="card-body m-2">
+                                <p class="text-secondary fs-6">طراحی 25 بهمن 1400</p>
+                              <h5 class="card-title ttlcrd fs-6 text-light fw-bolder lh-lg">کنفرانس های طراحی در سال<br> 1399</h5>
+                              <p class="card-text text-secondary" style="font-size: 14px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                            </div>
+                          </div>
+
+                          <div class="crdbx card col-11 m-0 mb-3 rounded-5">
+                            <div class="overf rounded-5">
+                                <a class="link-offset-2 link-underline link-underline-opacity-0" onclick="openPage('confranceh', this, 'orange')"><img src="/Associate-Professors-Professional-Network-and-Software.jpg" class="overlay1 filtering card-img-top" alt="..."></a>
+                            </div>
+                            <div class="card-body m-2">
+                                <p class="text-secondary fs-6">طراحی 25 بهمن 1400</p>
+                              <h5 class="card-title ttlcrd fs-6 text-light fw-bolder lh-lg">کنفرانس های طراحی در سال<br> 1399</h5>
+                              <p class="card-text text-secondary" style="font-size: 14px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="left-container tabcontent col-9 position-relative row me-3 shadow p-0" id="confranceh">
+                
+                <div class="mymenu position-absolute top-0 start-0 col-8 p-3 shadow-5" style="max-height: 66px;">
+                    <ul class="d-flex justify-content-between mt-1 mb-1">
+                        <li class="menu-org list-group-item btn" disabled>درباره من</li>
+                        <li class="menu-org list-group-item btn" disabled>رزومه من</li>
+                        <li class="menu-org list-group-item btn" disabled>نمونه کارها</li>
+                        <a class="link-offset-2 link-underline link-underline-opacity-0 rounded-3" onclick="openPage('leftContainerWeb', this, 'orange')"><li class="menu-org2 list-group-item btn btn-warning p-2 m-0" style="position: relative; bottom: 8px;">وبلاگ</li></a>
+                        <li class="menu-org list-group-item btn">تماس با من</li>
+                    </ul>
+                </div>
+
+
+
+                <h1 class="about-me fw-bolder text-light mt-4 me-2" onclick="openPage('leftContainerWeb', this, 'orange')">وبلاگ</h1>
+                <div class="progress p-0 mt-2 col-1 me-4 mb-4" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 5px; background-color: #343A40;">
+                    <div class="progress-bar bg-warning" style="width: 100%"></div>
+                </div>
+
+
+
+                <h1 class="text-center m-auto text-light fs-3 fw-bolder">کنفرانس های طراحی در سال 1400</h1>
+
+                <p class="text-center m-auto col-10 mt-4 mb-4" style="font-size: 0.5rem; color: #d6d6d6;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.</p>
+
+                <div class="primg2 m-0"></div>
+
+                <p class="text-end m-auto col-10 mt-4 mb-4" style="font-size: 0.5rem; color: #d6d6d6;">
+                    ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                </p>
+
+                <p class="text-end m-auto col-10 mt-4 mb-0" style="font-size: 0.5rem; color: #d6d6d6;">
+                    ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                </p>
+
+                <div class="d-flex flex-nowrap justify-content-center m-auto p-5 mt-0">
+                    <div class="doubimg col-6 m-4"></div>
+                    <div class="doubimg col-6 m-4"></div>
+                </div>
+
+                <div class="col-9 m-auto">
+                    <h2 class="about-me fw-bolder text-light fs-3 mt-4 me-2">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</h2>
+                    <p class="text-end m-auto mt-4 mb-0" style="font-size: 0.5rem; color: #d6d6d6;">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                    </p>
+                </div>
+
+
+                <div class="logdiv m-auto mt-5 ms-5 row d-flex justify-content-start flex-nowrap col-lg-12 col-md-12 col-sm-6">
+                    <i class="bi bi-chat-left-quote" class="imlog filtering d-inline ms-0" style="width: 3rem;"></i>
+                        <p class="logoTExt text-end col-lg-10 col-md-10 col-sm-6 m-auto d-inline me-0">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از <span class="">طراحان گرافیک است.</span></p>
+                </div>
+                <div class="m-auto col-9 mt-4">
+                    <footer class="blockquote-footer text-end fs-6"><small>آدام جابز</small></footer>
+                </div>
+
+                <div class="col-9 m-auto">
+                    <p class="text-end m-auto mt-4 mb-0" style="font-size: 0.5rem; color: #d6d6d6;">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                    </p>
+
+                    <p class="text-end m-auto mt-4 mb-0" style="font-size: 0.5rem; color: #d6d6d6;">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                    </p>
+
+                    <hr class="col-2 text-light m-auto mt-5 mb-4">
+                </div>
+
+
+                <div class="col-5 m-auto d-flex justify-content-center">
+                    <div class="btn majazi" style="font-size: 0.5rem;"><i class="bi bi-facebook d-inline"></i><p class="d-inline me-2" style="font-size: 0.5rem;">فیسبوک</p></div>
+                    <div class="btn majazi" style="font-size: 0.5rem;"><i class="bi bi-twitter me-3 d-inline"></i><p class="d-inline me-2" style="font-size: 0.5rem;">توییتر</p></div>
+                    <div class="btn majazi" style="font-size: 0.5rem;"><i class="bi bi-whatsapp me-3  d-inline"></i><p class="d-inline me-2" style="font-size: 0.5rem;">واتساپ</p></div>
+                </div>
+
+                
+                <h1 class="about-me fw-bolder text-light fs-2 mt-4 me-3 mb-3">نظرات (3)</h1>
+
+                <div class="cardnazar rounded-4 col-11 m-auto d-flex justify-content-start flex-nowrap ps-0">
+                    <img src="../Associate-Professors-Professional-Network-and-Software.jpg" alt="" style="width: 80px; height: 79.66px;" class="ms-0 filtering mt-4 me-2 rounded-4">
+                    <div class="d-inline mt-4 me-3 ps-2">
+                        <p class="card-text d-inline float-start ms-0" style="font-size: 0.25rem;"><small class="text-secondary">5 دقیقه قبل</small></p>
+                        <span class="text-light me-0" style="font-size: 18px;">دنیل لویز</span><br>
+                        <p class="text-light d-inline me-0" style="font-size: 0.5rem;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                        <a href="#" class="link-offset-2 link-underline link-underline-opacity-0 fs-6 mt-3 mb-3 text-warning d-block">پاسخ</a>
+                    </div>
+                </div>
+
+
+                <div class="cardnazar rounded-4 col-10 m-auto mt-3 ms-4 d-flex justify-content-start flex-nowrap ps-0">
+                    <img src="../Associate-Professors-Professional-Network-and-Software.jpg" alt="" style="width: 80px; height: 79.66px;" class="ms-0 filtering mt-4 me-2 rounded-4">
+                    <div class="d-inline mt-4 me-3 ps-2">
+                        <p class="card-text d-inline float-start ms-0" style="font-size: 0.25rem;"><small class="text-secondary">1 دقیقه قبل</small></p>
+                        <span class="text-light me-0" style="font-size: 18px;">جسیکا میلر</span><br>
+                        <p class="text-light d-inline me-0" style="font-size: 0.5rem;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                        <a href="#" class="link-offset-2 link-underline link-underline-opacity-0 fs-6 mt-3 mb-3 text-warning d-block">پاسخ</a>
+                    </div>
+                </div>
+
+                <div class="cardnazar rounded-4 col-11 m-auto mt-3 d-flex justify-content-start flex-nowrap ps-0">
+                    <img src="../Associate-Professors-Professional-Network-and-Software.jpg" alt="" style="width: 80px; height: 79.66px;" class="ms-0 filtering mt-4 me-2 rounded-4">
+                    <div class="d-inline mt-4 me-3 ps-2">
+                        <p class="card-text d-inline float-start ms-0" style="font-size: 0.25rem;"><small class="text-secondary">15 دقیقه قبل</small></p>
+                        <span class="text-light me-0" style="font-size: 18px;">هنری ویلیام</span><br>
+                        <p class="text-light d-inline me-0" style="font-size: 0.5rem;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                        <a href="#" class="link-offset-2 link-underline link-underline-opacity-0 fs-6 mt-3 mb-3 text-warning d-block">پاسخ</a>
+                    </div>
+                </div>
+
+
+                <div class="vorood mt-4 me-4 col-6">
+                    <p class="text-light d-inline" style="font-size: 13px;">وارد شوید با:</p>
+                    <p class="rounded-circle text-light d-inline ps-2 pe-2 text-center pb-0 pt-0 btn me-2" style="background-color: #395693;">Be</p>
+                    <p class="rounded-circle text-light d-inline ps-2 pe-2 text-center pb-0 pt-0 btn me-2" style="background-color: #395693;">f</p>
+                    
+                    <p class="rounded-circle text-light text-center d-inline ps-0 pe-1 pb-0 pt-0 btn me-2" style="background-color: #52A6E6;">
+                        <i class="bi bi-twitter fs-6 d-inline"></i>
+                    </p>
+                    
+                    <p class="rounded-circle text-light text-center d-inline ps-2 pe-2 pb-0 pt-0 btn me-3" style="background-color: #EA6393;">
+                        <i class="bi bi-globe fs-6 d-inline"></i>
+                    </p>
+                </div>
+                <div class="rounded-4 col-11 m-auto mt-3 mb-4 text-center d-flex align-items-center" id="nazar" style="border: 1px solid #343A40; height: 73px;">
+                    <i class="bi bi-emoji-sunglasses email2 d-flex align-items-center d-inline fs-5 col-3 shadow"></i>
+                    <input type="text" style="background-color: #1E1E1F; border: 1px solid #1E1E1F;" onclick="document.getElementById('nazar').style.border = '1px solid #f8f401';" class="nazar col-10 m-auto rounded-2" placeholder="بنویسید...">
+                    <i class="email1 bi bi-send-fill d-flex align-items-center d-inline fs-5 col-3 shadow"></i>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="left-container tabcontent col-9 position-relative row me-3 shadow p-0" id="leftContainerTamas">
+
+                <div class="mymenu position-absolute top-0 start-0 col-8 p-3 shadow-5">
+                    <ul class="d-flex justify-content-between mt-1 mb-1">
+                        <li class="tablink menu-org list-group-item btn" id="defaultOpen" onclick="openPage('leftContainerAbout', this, 'red')">درباره من</li>
+                        <li class="tablink menu-org list-group-item btn" onclick="openPage('leftContainerResume', this, 'green')">رزومه من</li>
+                        <li class="tablink menu-org list-group-item btn" onclick="openPage('leftContainerNemkar', this, 'blue')">نمونه کارها</li></a>
+                        <li class="tablink menu-org list-group-item btn" onclick="openPage('leftContainerWeb', this, 'orange')">وبلاگ</li></a>
+                        <li class="tablink menu-org list-group-item btn text-warning" onclick="openPage('leftContainerTamas', this, 'orange')">تماس با من</li></a>
+                    </ul>
+                </div>
+
+
+
+
+
+
+                <h1 class="about-me fw-bolder text-light mt-4">تماس با من</h1>
+                <div class="progress p-0 mt-2 col-1 me-2 mb-4" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px; background-color: #343A40;">
+                    <div class="progress-bar bg-warning" style="width: 100%"></div>
+                </div>
+
+
+                <div>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1622.6289705624063!2d51.24015716682685!3d35.57202477202931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfa!2s!4v1693645902004!5m2!1sfa!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <h1 class="about-me fw-bolder text-light mt-4 fs-3">فرم تماس با من</h1>
+
+                <div class="row col-12">
+                    <div class="col-6">
+                      <input type="text" class="tamasbm rounded-3 w-100" placeholder="   نام و نام خانوادگی" style="height: 54.27px; font-size: 0.5rem;">
+                    </div>
+                    <div class="col-6 has-error has-danger">
+                      <input type="email" class="input tamasbm rounded-3 w-100" placeholder="   ایمیل" style="height: 54.27px; font-size: 0.5rem;" id="emailContact" name="emailContact" required="required" autocomplete="on" oninvalid="setCustomValidity('ایمیل نادرست است.')" onkeyup="setCustomValidity('')">
+                    </div>
+
+                    <div class="mb-3 mt-3">
+                        <textarea class="tamasbm rounded-3 w-100" id="exampleFormControlTextarea1" rows="3" style="font-size: 0.5rem;" placeholder="   پیام..."></textarea>
+                      </div>
+                      <div class="d-flex justify-content-end mb-4">
+                        <i class="email1 bi bi-send-fill d-flex align-items-center d-inline fs-5 col-3 me-2 shadow" style="width: 150px;"><p class="fs-6 me-2 mt-3">ارسال پیام</p></i>
+                        </div>
+                </div>
+            </div>
+            
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="fixbotmenu col-12 p-3 shadow-5 fixed-bottom">
+                <ul class="d-flex justify-content-between mt-1 mb-1">
+                    <li class="tablink menu-org list-group-item btn" id="defaultOpen" onclick="openPage('leftContainerAbout', this, 'red')">درباره من</li>
+                    <li class="tablink menu-org list-group-item btn" onclick="openPage('leftContainerResume', this, 'green')">رزومه من</li>
+                    <li class="tablink menu-org list-group-item btn" onclick="openPage('leftContainerNemkar', this, 'blue')">نمونه کارها</li></a>
+                    <li class="tablink menu-org list-group-item btn" onclick="openPage('leftContainerWeb', this, 'orange')">وبلاگ</li></a>
+                    <li class="tablink menu-org list-group-item btn" onclick="openPage('leftContainerTamas', this, 'orange')">تماس با من</li></a>
+                </ul>
+            </div>
+    
+    
+    
+            
+    
+    
+            
+    
+    
+    
+        </div>
+    </div>
+
+    <script>
+        function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = '#00000000';
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+
+
+
+
+
+const tabLinks = document.querySelectorAll(".tabs a");
+const tabPanels = document.querySelectorAll(".tabs-panel");
+
+for (let el of tabLinks) {
+  el.addEventListener("click", e => {
+    e.preventDefault();
+
+    document.querySelector(".tabs li.active").classList.remove("active");
+    document.querySelector(".tabs-panel.active").classList.remove("active");
+
+    const parentListItem = el.parentElement;
+    parentListItem.classList.add("active");
+    const index = [...parentListItem.parentElement.children].indexOf(parentListItem);
+
+    const panel = [...tabPanels].filter(el => el.getAttribute("data-index") == index);
+    panel[0].classList.add("active");
+    });
+  }
+
+
+
+  const opench = document.getElementById("open");
+  const closech = document.getElementById("close");
+  const light = document.getElementById("light");
+  const dark = document.getElementById("dark");
+  const changeMode = document.getElementById("changeMode");
+  const photos = document.getElementsByTagName("img");
+  
+
+ 
+  
+
+
+  
+  function closemode() {
+    
+    changeMode.style.opacity = "1";
+    dark.style.scale = "1";
+    light.style.scale = "1";
+    opench.style.scale = "1";
+    closech.style.scale = "0";
+    photos.classList.add('dark-mode');
+    
+  }
+
+  function openmode() {
+    changeMode.style.opacity = "0";
+    dark.style.scale = "0";
+    light.style.scale = "0";
+    opench.style.scale = "0";
+    closech.style.scale = "1";
+    
+  }
+
+  function lightmode() {
+    const element = document.body;
+    element.style.backgroundColor = "white";
+    element.classList.add("dark-mode");
+    for (let i = 0; i < photos.length; i++) {
+        photos[i].style.filter = 'invert(1)';
+    }
+  }
+
+  function darkmode() {
+    const element = document.body;
+    element.style.backgroundColor = "#121212";
+    element.classList.remove("dark-mode");
+    for (let i = 0; i < photos.length; i++) {
+        photos[i].style.filter = 'invert(0)';
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+</html>

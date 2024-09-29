@@ -1,0 +1,768 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #121212;
+    font-family: 'sansserif';
+}
+
+@font-face {
+    font-family: 'sansserif';
+    src: url('/font/Sans\ a4fran3.ttf') format(truetype),
+         url('/font/Sans\ a4fran3.woff') format(woff);
+}
+
+@font-face {
+    font-family: 'bziba';
+    src: url('/font/B\ Ziba_0.ttf') format(truetype);
+}
+
+.about-me{
+    font-family: 'bziba';
+}
+
+.what-do{
+    font-family: 'bziba';
+}
+
+.grand-father{
+    margin: 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.left-container{
+    background-color: #1E1E1F;
+    border-radius: 30px;
+    border: 1px solid #383838;
+    height: auto;
+}
+
+.mymenu{
+    background-color: #2A2A2B;
+    border-radius: 30px 0px 30px 0px;
+    border: 1px solid #383838;
+    font-size: 1px;
+}
+
+.tozih{
+    font-size: 15px;
+    color: #b8b7b7;
+    line-height: 25px;
+}
+
+.trhst{
+    color: #b8b7b7;
+    font-size: 13px;
+}
+
+.majazi{
+    color: #a3a3a3;
+    font-size: 10px;
+}
+
+.majazi:hover{
+    color: #ffd900;
+}
+
+.gradiant{
+    background: linear-gradient(#252422, #252422) padding-box,
+              linear-gradient(to right, #252422, rgb(248, 244, 1)) border-box;
+  border-radius: 20px;
+  border: 1px solid transparent;
+}
+
+.right-container{
+    background-color: #1E1E1F;
+    
+    border: 1px solid #383838;
+    border-radius: 30px;
+}
+
+.menu-org{
+    color: #a3a3a3;
+    font-size: 17px;
+}
+
+.menu-org:hover {
+    color: #797979;
+}
+
+.mypic{
+    width: 155.5px;
+    height: 155.5px;
+    background-color: #3A3A3A;
+}
+
+.bdg{
+    background-color: #2A2A2B;
+    font-size: 10px;
+}
+
+.email{
+    height: 50px;
+    width: 50px;
+    color: #FFCF68;
+
+    background: linear-gradient(90deg, rgba(249,255,0,1) 0%, rgba(188,191,12,1) 0%, rgba(171,173,16,1) 0%, rgba(109,110,21,1) 0%, rgba(82,82,25,1) 0%, rgba(103,85,2,1) 0%, rgba(47,42,0,1) 0%, rgba(23,19,0,1) 0%, rgba(55,44,0,1) 0%, #202021 49%) padding-box,
+    linear-gradient(to right, #1E1E1F, rgb(251, 255, 0)) border-box;
+border-radius: 10px;
+border: 1px solid transparent;
+}
+
+.darsad{
+    background: rgb(52,58,64);
+background: linear-gradient(90deg, rgba(52,58,64,1) 0%, rgba(255,193,7,1) 39%);
+}
+
+.menu-org1{
+    color: #a3a3a3;
+}
+
+.menu-org2{
+    color: #FFCF68;
+}
+
+.menu-org2:hover{
+    color: #1E1E1F;
+}
+
+.menu-org1:hover {
+    color: #797979;
+}
+
+.piciture{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+    transform: 1s ease;
+    overflow:hidden;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.pici{
+    height: 180px;
+    z-index: 6;
+}
+
+.itemsio{
+    background-color: #1E1E1F;
+    z-index: 7;
+}
+
+.piciture:hover{
+    width: 120%;
+    height: 120%;
+    transition-duration: 1s;
+}
+
+.wrapper{
+    
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+}
+
+.images{
+    width: 100%;
+    height: 100%;
+    transition: 1s ease;
+    display: block;
+}
+
+.images:hover{
+    scale: 120%;
+    opacity: 0.3;
+}
+
+.overlay{
+    position: absolute;
+    text-align: center;
+    width: 20%;
+    margin: auto;
+    align-items: center;
+    bottom: 30%;
+    left: 0;
+    right: 0;
+    background-color: #1e1e1fec;
+    overflow: hidden;
+    transform: scale(0);
+    transition: .3s ease;
+    z-index: 77;
+    box-sizing: border-box;
+}
+
+.wrapper:hover .overlay{
+  transform: scale(1);
+}
+
+.overlay:hover{
+    background-color: #3a321cd8;
+}
+
+.primg{
+    height: 400px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0.5;
+}
+
+.primg1{
+    height: 400px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.crdbx{
+    background-color: #232221;
+    transition: 1s ease;
+}
+
+.crdbx:hover{
+    background: linear-gradient(90deg, #202021 0%, #202021 0%, #202021 0%, #202021 0%, #202021 0%, #202021 0%, #202021 0%, #202021 0%, #202021 0%, #202021 49%) padding-box,
+    linear-gradient(to right, #1E1E1F, rgb(161, 163, 24)) border-box;
+border: 0.5px solid transparent;
+}
+
+.overf{
+    overflow: hidden;
+}
+
+.overlay1{
+    transition: 0.5s ease;
+}
+
+.overlay1:hover{
+    scale: 105%;
+    opacity: 0.5;
+}
+
+.tamasbm{
+    background-color: #12121200;
+    color: wheat;
+    border: 1px solid #ffd900;
+}
+
+::placeholder{
+    color: #575757;
+}
+
+.right-container1{
+    height: 900px;
+    background-color: #1E1E1F;
+    border-radius: 30px;
+    border: 1px solid #383838;
+}
+
+.primg2{
+    background-image: url('/image_02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+    width: 100%;
+    height: 400px;
+}
+
+.doubimg{
+    background-image: url('/news-add-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+    height: 571.83px;
+}
+
+.cardnazar{
+    background: linear-gradient(#252422, #252422) padding-box,
+              linear-gradient(to right, #252422, #f8f401) border-box;
+  border-radius: 20px;
+  border: 1px solid transparent;
+}
+
+.email1{
+    height: 50px;
+    width: 50px;
+    color: #FFCF68;
+    background-color: #1E1E1F;
+    border: 1px solid #383838;
+    border-radius: 10px;
+    padding-right: 14px;
+}
+
+.email2{
+    height: 50px;
+    width: 50px;
+    color: #FFCF68;
+    background-color: #1E1E1F;
+    border: 1px solid #383838;
+    border-radius: 10px;
+    padding-right: 14px;
+}
+
+.nazar:focus{
+    outline:none;
+}
+
+.email2:hover{
+    background: linear-gradient(90deg, rgba(249,255,0,1) 0%, rgba(188,191,12,1) 0%, rgba(171,173,16,1) 0%, rgba(109,110,21,1) 0%, rgba(82,82,25,1) 0%, rgba(103,85,2,1) 0%, rgba(47,42,0,1) 0%, rgba(23,19,0,1) 0%, rgba(55,44,0,1) 0%, #202021 49%) padding-box,
+    linear-gradient(to right, #1E1E1F, rgb(251, 255, 0)) border-box;
+border-radius: 10px;
+border: 1px solid transparent;
+}
+
+.email1:hover{
+    background: linear-gradient(90deg, rgba(249,255,0,1) 0%, rgba(188,191,12,1) 0%, rgba(171,173,16,1) 0%, rgba(109,110,21,1) 0%, rgba(82,82,25,1) 0%, rgba(103,85,2,1) 0%, rgba(47,42,0,1) 0%, rgba(23,19,0,1) 0%, rgba(55,44,0,1) 0%, #202021 49%) padding-box,
+    linear-gradient(to right, #1E1E1F, rgb(251, 255, 0)) border-box;
+border-radius: 10px;
+border: 1px solid transparent;
+}
+
+.myresumediv{
+    scale: 0;
+    position: relative;
+    bottom: 720px;
+}
+
+.resumedivh{
+    scale: 1;
+}
+
+.aboutme{
+    position: relative;
+}
+
+.nemoooonekar{
+    scale: 0;
+    position: relative;
+    bottom: 1625px;
+}
+
+.weblog{
+    scale: 0;
+    position: relative;
+    bottom: 2400px;
+}
+
+.tamas{
+    scale: 0;
+    position: relative;
+    bottom: 4025px;
+}
+
+
+.fixbotmenu{
+    background-color: #2A2A2B;
+    border-radius: 30px 30px 0px 0px;
+    border: 2px solid #494949;
+    font-size: 1px;
+    scale: 0;
+    
+}
+
+.emaillit{
+    border-radius: 30px 0px 30px 0px;
+    
+}
+
+.emaillit:hover{
+    border-radius: 30px 0px 30px 0px;
+}
+
+.fixbotmenu1{
+    background-color: #2A2A2B;
+    border-radius: 30px 30px 0px 0px;
+    border: 2px solid #494949;
+    font-size: 1px;
+    scale: 0;
+    position: fixed;
+}
+.nemkar1{
+    scale: 0;
+}
+
+
+@media only screen and (max-width: 1400px) {
+    .emaillit{
+        visibility:hidden;
+    }
+    .hiding{
+        scale: 1;
+    }
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    .father{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .left-container{
+        width: 100%;
+        height: auto;
+    }
+    .right-container1{
+        width: 100%;
+        margin-right: 60px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .fixbotmenu{
+        scale: 1;
+    }
+    .mymenu{
+        scale: 0;
+    }
+    .efan{
+        display: inline;
+    }
+    .moarefi{
+        position: relative;
+        left: 200px;
+    }
+    .emaillit{
+        visibility: hidden;
+    }
+    .bdg{
+        display: inline;
+        position: relative;
+        bottom: 50px;
+        right: 100px;
+    }
+    .myresumediv{
+        bottom: 700px;
+    }
+    .nemkar{
+        scale: 0;
+    }
+    .nemkar1{
+        scale: 1;
+    }
+    
+    .images{
+        height: 300px;
+    }
+    .change-mode{
+        border-radius: 0px 30px 0px 0px;
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
+    .menu-org{
+        font-size: 12px;
+    }
+    .overlay{
+        
+        width: 80px;
+    }
+}
+
+
+@media screen and (max-width: 580px) {
+    body{
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    .grand-father{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    .father{
+        margin: 0px;
+    }
+    .right-container1{
+        width: 100%;
+        margin: auto;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .fixbotmenu{
+        width: 100%;
+    }
+    .gradiant{
+        width: 100%;
+        text-align: center;
+    }
+    .gradfather{
+        flex: wrap;
+        width: 100%;
+    }
+    .moarefi{
+        position: static;
+        margin: auto;
+    }
+    .menu-org{
+        font-size: 10px;
+    }
+    .trhst{
+        height: 100px;
+        width: 100%;
+        margin-left: 50px;
+    }
+    .bdg{
+        right: 80px;
+        bottom: 60px;
+    }
+    .efan{
+        font-size: 15px;
+    }
+    #leftContainerAbout{
+        margin-left: 20px;
+        left: 8px;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    #leftContainerNemkar{
+        margin-left: 20px;
+        left: 8px;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    #leftContainerResume{
+        margin-left: 20px;
+        left: 8px;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    #leftContainerTamas{
+        margin-left: 20px;
+        left: 8px;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    #leftContainerWeb{
+        margin-left: 20px;
+        left: 8px;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    #confranceh{
+        margin-left: 20px;
+        left: 8px;
+        margin-bottom: 100px;
+        margin-left: -0px;
+    }
+    #yenekar{
+        margin-left: 20px;
+        left: 8px;
+        margin-bottom: 100px;
+    }
+    .email1{
+        position: relative;
+        left: 35px;
+    }
+    .logoTExt{
+        font-size: 10px;
+    }
+    .imlog{
+        font-size: 3rem;
+    }
+    .logdiv{
+        position: relative;
+        left: 100px;
+        width: 75%;
+    }
+    .tablink{
+        font-size: 14px;
+    }
+    .open{
+        position: relative;
+        right: 180px;
+        z-index: 100;
+    }
+    .change-mode{
+        border-radius: 0px 30px 0px 0px;
+    }
+}
+
+
+
+.logoTExt{
+    font-size: 20px;
+    color: #d6d6d6;
+}
+
+
+
+
+
+.tablink {
+  
+    color: rgb(207, 207, 207);
+    float: right;
+    border: none;
+    outline: none;
+    cursor: pointer;
+   
+    
+  }
+  
+  .tablink:hover {
+      color: #777;
+  }
+  
+  .tablink:focus{
+      color: #c09d00;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+  }
+
+
+
+  .tablink1 {
+  
+    color: rgb(207, 207, 207);
+    float: right;
+    border: none;
+    outline: none;
+    cursor: pointer;
+   
+    
+  }
+  
+  .tablink1:hover {
+      color: #777;
+  }
+  
+  .tablink1:focus{
+      color: #c09d00;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent1 {
+    color: white;
+    display: none;
+    height: 100%;
+  }
+
+
+
+
+
+
+
+
+  .tabs {
+    list-style: none;
+    width: 100%;
+    padding-right: 0px;
+    margin-right: 0px;
+  }
+  
+  .hi1 {
+    text-decoration: none;
+    
+  }
+  
+
+  
+  .tabs-container {
+    margin: auto;
+    box-sizing: border-box;
+  }
+  
+  .tabs {
+    display: flex;
+    padding-right: 0px;
+  }
+  
+ 
+  
+  .tabs li a {
+    display: block;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 2px 2px 0 0;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  
+  
+  .tabs-content {
+    position: relative;
+    z-index: 2;
+    border-radius: 0 4px 4px 4px;
+   
+  }
+  
+  .tabs-panel {
+    display: none;
+  }
+  
+  .tabs-panel.active {
+    display: block;
+  }
+  
+  
+
+
+
+
+.dark-mode{
+    filter: invert(1);
+}
+
+
+
+
+
+.change-mode{
+    background-color: #1E1E1F;
+    border: 1px solid #383838;
+    border-radius: 0px 30px 0px 30px;
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index: 770;
+}
+
+.close{
+    scale: 1;
+    transition: all 0.3s ease;
+    height: 30px;
+    z-index: 1000;
+}
+
+.open{
+    scale: 0;
+    transition: all 0.3s ease;
+}
+
+#light{
+    scale: 0;
+    transition: all 0.3s ease;
+}
+
+#dark{
+    scale: 0;
+    transition: all 0.3s ease;
+}
+
+.icons{
+    margin-bottom: 100px;
+}
+
+.contright{
+    position: relative;
+    bottom: 50px;
+}
